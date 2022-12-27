@@ -1,0 +1,30 @@
+.cover__link {
+  display: block;
+  height: 0;
+  padding-bottom: 62.5%;
+  text-decoration: none;
+  background-image: url(../../../images/__background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.cover__link::before {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: '';
+  background: rgba(42, 44, 47, 0.3);
+}
+
+.cover__link:hover::before {
+  background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 550px) {
+  .cover__link {
+    gap: 16px;
+  }
+}

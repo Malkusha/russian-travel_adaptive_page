@@ -10,3 +10,7 @@
 **Используемые технологии**
 
 HTML, CSS
+
+**GitHub Pages**
+
+https://malkusha.github.io/russian-travel/
