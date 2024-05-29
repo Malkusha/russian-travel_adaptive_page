@@ -13,4 +13,4 @@ HTML, CSS
 
 **GitHub Pages**
 
-https://malkusha.github.io/russian-travel/
+https://github.com/Malkusha/russian-travel_adaptive_page
